@@ -1,5 +1,17 @@
 # How2UseNotebookLLM2Study
 
+## 2025/12 实测谷歌NotebookLM最佳学习工具记录
+
+- 输入原始材料：G3英语单元复习资料 8个单词+5个词组+3个句子+2给语法知识点
+- 输出：
+  1. **Slide Deck（精华）：PPT可下载Pdf**，总体评价文本9.5分+图/格式9.5分；内容只漏1个单词，还有故事串起+格式完美，画错1页中5处中文；可写提示词进一步控制
+  2. **Video（精华）：视频输出本身就不错可下载MP4**，如果先输出Slide Deck再Video就是该PPT的最好讲解
+  3. **InfoGraphic（精华）:单页精华PPT，可下载PNG**
+  4. Mindmap：思维导图可下载PNG
+  5. FlashCard：闪卡帮助记忆重要概念，可下载CSV格式
+  6. Quiz：可共享的测试（_能看到原始Notebook_）；例如https://notebooklm.google.com/notebook/a5180ed6-6f73-4117-a127-4dcd4b940589?artifactId=ea6cdaec-3789-4c43-b978-2f6faea5e5fe
+  7. Audio：Video的播客版
+  8. Report：把原始文档根据你的提示词进行文本转化；例如摘要、学习指南或Blog等 
 ## Pdf转PPT的高质量免费工具
 
 - [PdfGear Online直接用](https://www.pdfgear.com/pdf-to-pptx/) ，效果⭐⭐⭐，大致能拆解，但字和排版还是有些问题，后续手工有不少调整；原始文件100MB以内
