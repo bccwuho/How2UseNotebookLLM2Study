@@ -1,17 +1,24 @@
 # How2UseNotebookLLM2Study
 
-## 2025/12 实测谷歌NotebookLM最佳学习工具记录
+## 2025/12 实测谷歌NotebookLM最佳学习工具记录 https://notebooklm.google.com/ ；🔴**基于最新最强模型 Gemini3Pro（GPT4.6档+） 和 Banana3Pro，文本/多模态理解和PPT图的生成已经接近满分，图片表达清晰准确，还有故事线串起来被惊艳到了，个别汉字小字体时生成还有些问题；总分给到19分
 
-- 输入原始材料：G3英语单元复习资料 8个单词+5个词组+3个句子+2给语法知识点
+- 输入原始材料：G3英语单元复习资料 8个单词+5个词组+3个句子+2给语法知识点 = 2页Word内容
 - 输出：
-  1. **Slide Deck（精华）：PPT可下载Pdf**，总体评价文本9.5分+图/格式9.5分；内容只漏1个单词，还有故事串起+格式完美，画错1页中5处中文；可写提示词进一步控制
-  2. **Video（精华）：视频输出本身就不错可下载MP4**，如果先输出Slide Deck再Video就是该PPT的最好讲解
+  1. **Slide Deck（精华）：PPT可下载Pdf**，总体评价文本9.5分+图/格式9.5分；内容只漏1个词组约4%，还有故事串起+格式完美，画错1页中5处中文；**可写提示词进一步控制**
+  2. **Video（精华）：视频输出本身就不错可下载MP4**，如果先输出Slide Deck再Video就是该PPT的最好讲解；**可写提示词进一步控制**
   3. **InfoGraphic（精华）:单页精华PPT，可下载PNG**
   4. Mindmap：思维导图可下载PNG
   5. FlashCard：闪卡帮助记忆重要概念，可下载CSV格式
   6. Quiz：可共享的测试（_能看到原始Notebook_）；例如https://notebooklm.google.com/notebook/a5180ed6-6f73-4117-a127-4dcd4b940589?artifactId=ea6cdaec-3789-4c43-b978-2f6faea5e5fe
-  7. Audio：Video的播客版
-  8. Report：把原始文档根据你的提示词进行文本转化；例如摘要、学习指南或Blog等 
+  7. Audio：Video的播客版；**甚至还有Interactive模式可以和2个主持人对话**
+  8. Report：把原始文档根据你的提示词进行文本转化；例如摘要、学习指南或Blog等
+
+## 2025/12 实测密塔 - 专题（新） 国内最佳学习工具记录 https://metaso.cn/subject-v2输入；🔴MetaSo的Banana（https://mp.weixin.qq.com/s/CijVsVvj_MhyF6iezbO0Jg）还可以给7-8分，图片表达很一般，文本生成也有不少问题但勉强能用；但指令跟随漏文本约10-22%，只能给6-7分；总分给到14分
+- 输入原始材料：G3英语单元复习资料 8个单词+5个词组+3个句子+2给语法知识点
+- 输出：
+  1. **“给我讲讲”（精华）：先转成PPT然后讲解**，下载PPT和视频要付费，速讲+3D风格时文本6分+图/格式8分/**课堂+3D风格**时文本7分+图/格式8分； **讲完视频有个“考考我”的测试**，分享后看不见原文，例如https://metaso.cn/api/s/pObSxPn
+  2.**创建海报（精华）：生成总结性HTML网页可进一步做PPT，没有调用Banana生图，而用字体风格来做所以文本完全正确，内容漏20%给6分，形式给8分**；例如https://metaso.cn/api/s/w3SWNqu
+     
 ## Pdf转PPT的高质量免费工具
 
 - [PdfGear Online直接用](https://www.pdfgear.com/pdf-to-pptx/) ，效果⭐⭐⭐，大致能拆解，但字和排版还是有些问题，后续手工有不少调整；原始文件100MB以内
