@@ -3,11 +3,28 @@
 ## Pdf转PPT的高质量免费工具
 
 - [PdfGear Online直接用](https://www.pdfgear.com/pdf-to-pptx/) ，效果⭐⭐⭐，大致能拆解，但字和排版还是有些问题，后续手工有不少调整；原始文件100MB以内
-- 使用下载后的PdfGear把Pdf转PPT，格式完美但都是图片本身，无法编辑。**可以采用这个方法结合上面的修改个别页面**
-
+- 使用下载后的PdfGear把Pdf转PPT，格式完美但都是图片本身，无法编辑。**可以采用这个方法结合上面的修改个别页面上的文字**
 
 - https://www.ilovepdf.com/zh-cn/pdf_to_powerpoint 免费版通常有每日次数限制（每天 1-2 次）；老牌“装机必备”；效果⭐⭐⭐，与PdfGear Online类似
+- 在只输出图片没有文字框的情况下，只用用Qwen3Max 图像编辑工具用类似如下Prompt修图来做。
 
+#### 原图
+<img width="1146" height="640" alt="image" src="https://github.com/user-attachments/assets/39312aad-8fdf-4860-a33a-6a166798f974" />
+
+#### 只用Qwen3Max编辑图片，去掉右下角的文字。只做一次，图片还能看
+<img width="1146" height="640" alt="image" src="https://github.com/user-attachments/assets/1d7a2219-e0bd-48b3-bdd6-a6755325ea46" />
+
+#### 用Qwen3Max编辑图片，因为一次修改多处文字，文字都会不正确，所以每次修改文字2处，共做了3次，图片明显变糊对比度也不够
+```bash
+Prompt
+把红框中的文字变成：你想和他们一起去吗？
+把蓝框中的文字变成：我能摸一下它吗？
+去掉右下角的文字
+```
+<img width="1146" height="640" alt="image" src="https://github.com/user-attachments/assets/798258a6-27a9-41a9-bdd6-47f537fa9f2b" />
+
+
+-【ToDo】
 1. Adobe Acrobat 在线版 (还原度之王)
 作为 PDF 格式的发明者，Adobe 的算法对“逆向转换”做得最好。它能精准识别原 PPT 的文本框、背景图和层级关系。
 
@@ -16,6 +33,8 @@
 免费情况：支持在线免费转换，但每天有次数限制（通常 1-2 次）。
 
 网址：Adobe Acrobat PDF to PPT
+
+**2、氪金的WPS VIP，pdf转PPT不知效果如何**
 
 3. Canva 可画 (二次编辑神器)
 如果你不仅想转回 PPT，还觉得原来的设计有点老旧，想顺便美化一下，选 Canva。
