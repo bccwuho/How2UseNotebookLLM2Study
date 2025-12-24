@@ -12,6 +12,7 @@
   6. Quiz：可共享的测试（_能看到原始Notebook_）；例如https://notebooklm.google.com/notebook/a5180ed6-6f73-4117-a127-4dcd4b940589?artifactId=ea6cdaec-3789-4c43-b978-2f6faea5e5fe
   7. Audio：Video的播客版；**甚至还有Interactive模式可以和2个主持人对话**
   8. Report：把原始文档根据你的提示词进行文本转化；例如摘要、学习指南或Blog等
+- 限额：免费账户精华的都limited，Video/Audio 3次/天，AI Pro账户约X3；https://support.google.com/notebooklm/answer/16213268
 
 ## 2025/12 实测密塔 - 专题（新） 国内最佳学习工具记录 https://metaso.cn/subject-v2 🔴MetaSo的Nano Banana2还可以给7-8分，图片表达很一般，文本生成也有不少问题但勉强能用；但指令跟随漏文本约10-22%，只能给6-7分；总分给到14分
 - 输入原始材料：G3英语单元复习资料 8个单词+5个词组+3个句子+2给语法知识点
