@@ -1,6 +1,6 @@
 # How2UseNotebookLLM2Study
 
-## 2025/12 实测谷歌NotebookLM最佳学习工具记录 https://notebooklm.google.com/ ；🔴**基于最新最强模型 Gemini3Pro（GPT4.6档+） 和 Banana3Pro，文本/多模态理解和PPT图的生成已经接近满分，图片表达清晰准确，还有故事线串起来被惊艳到了，个别汉字小字体时生成还有些问题；总分给到19分
+## 2025/12 实测谷歌NotebookLM最佳学习工具记录 https://notebooklm.google.com/ ；🔴**基于最新最强模型 Gemini3Pro（GPT4.6档+） 和 Banana3Pro，文本/多模态理解和PPT图的生成已经接近满分，图片表达清晰准确，还有故事线串起来被惊艳到了，个别汉字小字体时生成还有些问题；总分给到19分！！！
 
 - 输入原始材料：G3英语单元复习资料 8个单词+5个词组+3个句子+2给语法知识点 = 2页Word内容
 - 输出：
@@ -18,7 +18,14 @@
 - 输出：
   1. **“给我讲讲”（精华）：先转成PPT然后讲解**，下载PPT和视频要付费，速讲+3D风格时文本6分+图/格式8分/**课堂+3D风格**时文本7分+图/格式8分； **讲完视频有个“考考我”的测试**，分享后看不见原文，例如https://metaso.cn/api/s/pObSxPn
   2. **创建海报（精华）：生成总结性HTML网页可进一步做PPT，没有调用Banana生图，而用字体风格来做所以文本完全正确，内容漏20%给6分，形式给8分**；例如https://metaso.cn/api/s/w3SWNqu
-     
+
+## 2025/12 实测用GPT5.2 Extended Think 用提示词手工搓了一个PPT，🔴文本给到9.5分内容未漏，比NotebookLM只少故事串起来但是真PPT可以自己改，图片以Icon为主/格式表达不错给8-9分；总分给到18分！
+- 输入原始材料：G3英语单元复习资料 8个单词+5个词组+3个句子+2给语法知识点
+- 使用了以下Prompt，该提示词是NotebookLM的缺省Slide Deck的
+```bash
+对于我上传的文件。使用中文制作一个PPT形式的Detailed Deck（A comprehensive deck with full text and details, perfect foremailing or reading on its own. ）帮助我学习我上传的文件。Add a high-level outline, or guide the audience, style, and focus: "Create a deck for beginners using a bold andplayful style with a focus on step-by-step instructions."。形成PPT文件，供我下载
+```
+
 ## Pdf转PPT的高质量免费工具
 
 - [PdfGear Online直接用](https://www.pdfgear.com/pdf-to-pptx/) ，效果⭐⭐⭐，大致能拆解，但字和排版还是有些问题，后续手工有不少调整；原始文件100MB以内
